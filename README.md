@@ -1,19 +1,25 @@
-# File Metadata Extractor :mag_right:
+# File Metadata Extractor 🗃️
 
-This Python script recursively scans a specified directory, extracting metadata from `.mp4` files and saving the information to a CSV file. It's designed to help users discover and organize their media files more efficiently.
+This script, `meta_extractor.py`, allows users to extract metadata from files within a specified directory and its subdirectories, filtering by file extensions.
 
-## Features :sparkles:
+## Features 🌟
 
-- Recursively scan directories
-- Filter and process only `.mp4` files
-- Extract file name, size, creation, and modification dates
-- Save metadata to a CSV file
+- User-friendly: prompts for directory and file extensions.
+- Recursive: scans specified directory and subdirectories.
+- Customizable: works with any file extensions.
+- Outputs metadata to a CSV file: including file path, name, size, creation date, and modification date.
 
-## Usage :computer:
+## How to Use 🔍
 
 1. Ensure Python is installed on your system.
-2. Modify `metaextractor.py`, replacing `'path/to/your/folder'` with your target directory.
-3. Run the script using `python metaextractor.py`.
-4. Check `file_metadata.txt` for the output.
+2. Download `meta_extractor.py` to your local machine.
+3. Open a terminal or command prompt.
+4. Navigate to the directory containing `meta_extractor.py`.
+5. Run the script with `python meta_extractor.py`.
+6. Follow the on-screen prompts to input your directory and file extensions.
 
-Feel free to contribute to or fork this project! :fork_and_knife:
+## Requirements 📋
+
+- Python 3.x
+
+Enjoy organizing and discovering your files! 🚀
